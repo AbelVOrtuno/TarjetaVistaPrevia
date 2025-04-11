@@ -1,0 +1,58 @@
+.contenido{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.categoria{
+    font-size: 1.5rem;
+    color: $colorFuente;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-style: normal;
+}
+.producto{
+    font-size: $titulo;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+.descripcion{
+    font-size: $descripcion;
+    color: $colorFuente;
+    line-height: 1.6;
+}
+.botonEnviar{
+    background-color: $colorBoton;
+    font-size: 1rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
+    &:hover{
+        background-color: darken($colorBoton, 10%);
+        transform: scale(1.01);
+    }
+}
+.seccionPrecios{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+    
+    .precioDescuento{
+        color: forestgreen;
+        font-size: $precio1;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        margin: 1rem;
+    }
+    .precioNormal{
+        color: grey;
+        text-decoration: line-through;
+        margin: 0 auto;
+    }
+}
