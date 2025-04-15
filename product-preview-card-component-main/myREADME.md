@@ -49,7 +49,7 @@ Este proyecto usa la version de Ruby de SASS.Para compilar los estilos:
 Esto observara cambios y compilara automaticamente.Claro si ya tienes la gema de sass descargada del Ruby Installer.
 
 ## Lecciones aprendidas
--Como estructurar un proyecto con SASS usando archivos parciales.
--Aplicar diseño responsive usando Grid y Flexbox.
--Mejorar la semantica HTML y optimizar estilos CSS.
--Uso de 'overflow:hidden' y 'border-radius' para lograr acabados visuales mas limpios.
+- Como estructurar un proyecto con SASS usando archivos parciales.
+- Aplicar diseño responsive usando Grid y Flexbox.
+- Mejorar la semantica HTML y optimizar estilos CSS.
+- Uso de 'overflow:hidden' y 'border-radius' para lograr acabados visuales mas limpios.
