@@ -53,3 +53,11 @@ Esto observara cambios y compilara automaticamente.Claro si ya tienes la gema de
 - Aplicar diseño responsive usando Grid y Flexbox.
 - Mejorar la semantica HTML y optimizar estilos CSS.
 - Uso de 'overflow:hidden' y 'border-radius' para lograr acabados visuales mas limpios.
+
+## Autor 
+- Codificado por AbelVOrtuno
+- Desafio de Frontend Mentor
+
+## Creditos
+
+Diseño original por Frontend Mentor.Adaptado y maquetado por mi como practica de proyectos personales.
